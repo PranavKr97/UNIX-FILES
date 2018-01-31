@@ -1,0 +1,50 @@
+1.To create a directory for unix-$ mkdir arnav
+2.To see the directory created-$ ls
+3.To display all the files in the system-$ arnav
+4.To create a file in unix-$ vim filename
+5.To create a text document-$ gedit filename.txt
+
+press Esc for command mode
+6.To delete a character-Esc+x
+7.To undo a deleted character-Esc+u
+8.To redo-Esc CTRL-R
+9.to append the text at end of the file-Esc+A
+10.To save the file-Esc+shift :wq
+11.to remove the changes-shift:ql
+12.to move the cursor at the beginning of the word to delete the word-dw
+13.to move the cursor two words forward-2w
+14.to move the cursor at the end of the third word-3e
+15.to move to the start of the line-0
+16.to delete two words-d2w
+17.to delete the entire line-dd
+18.to put the previous deleted text after the cursor-p
+19.to replace the letter-r
+20.to change until the end of a word (place cursor on u in lyunbv it will delete unbv and after deletion it put you in insert mode)-ce
+21.to move you to the bottom of the file- G
+22.to move you to the start of file - gg
+
+23.to find a matching - %
+24.to substitute "new word" for "old word" where g is globally- :s/old/new/g
+25. / backward search n to find the next occurrence and N to search in opposite direction
+26. ? forward search
+27. :l to run shell command like :ldir
+28. :w-test (where test is your filename).save the file
+29. v -starts visual mode for selecting lines and you can perform operation on that like delete-d
+30. :r -file name will insert content into the current file
+31. R - to replace more than one character 
+32. y -operator to copy text using v visual mode and p to paste it
+33. yw -(copy) yanks one word
+34. o -open a line below the cursor
+35. O -opens a line above the cursor
+36. a - insert text after the cursor
+37. A -insert text after end of line 
+38. e - command moves to end of word 
+39. Y - operator yanks text , p pastes it
+40. R - enters replace mode until <Esc> is pressed
+41. ctrl-w to jump from one window to another
+
+type a command : e and press ctrl+D to list all the command name starts with :e and press tab to complete the command 
+
+
+
+
