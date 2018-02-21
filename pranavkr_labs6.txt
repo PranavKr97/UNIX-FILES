@@ -1,0 +1,36 @@
+Pranav kr 
+lab s6
+
+Q)To perform all arithmetic operations using case in shell script.
+
+Soln)
+
+echo " enter the value of a"
+read a
+echo "enter the value of b"
+read b
+echo "1. Add"
+echo "2.subtract"
+echo "3.multiply"
+echo "4.div"
+echo "5.modulus"
+read ch
+case $ch in
+        1) echo $( expr $a + $b ) ;;
+        2) echo $( expr $a - $b ) ;;
+        3) echo $( expr $a \* $b) ;;
+        4) echo $( expr $a / $b ) ;;
+        5) echo $( expr $a % $b ) ;;
+        *) echo "invalid option" ;;
+esac
+
+Q)To perform simple for loop in shell script.
+
+Soln)
+
+read n
+for i   in $( seq $n )
+do
+        echo $i
+done
+
