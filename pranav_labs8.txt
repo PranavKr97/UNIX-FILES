@@ -1,0 +1,37 @@
+1 Pranjal 	Male
+2 Rashid 	Male
+3 PranavK 	Male
+4 Pranav 	Male
+5 Prajval 	Male
+6 Niveda 	Female
+7 Pawan 	Male
+8 Mukul 	Male
+9 Abhishekh 	Male
+10 Rakshit 	Male
+11 Purnima 	Female
+12 Priyanka 	Female
+
+
+SED COMMANDS
+
+sed -n '1,2p' filename
+To print lines from 1 to 2
+
+sed -n '$p' filename
+To print last line
+
+sed -n -e '1,3p' -e '5,8p' filename
+To print selective lines
+
+sed -n '/Student/p' filename
+To print all the lines which contain the word Student
+
+sed 's/k/m/g' filename
+Replaces letter k with m in that file
+
+
+
+sed '1i\ (enter)
+>line 1\(backward slash is to write in next line)
+>line2
+>' filename(input these lines in the file )
